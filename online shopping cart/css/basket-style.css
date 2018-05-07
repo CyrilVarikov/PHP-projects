@@ -1,0 +1,16 @@
+p{
+    border: 1px solid aqua;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+body{
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: space-around;
+    flex-direction: column;
+}

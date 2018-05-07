@@ -1,0 +1,15 @@
+p{
+    font-size: 20px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+form{
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+body form:last-child{
+    float: right;
+}

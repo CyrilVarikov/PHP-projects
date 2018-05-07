@@ -1,0 +1,19 @@
+body{
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+form{
+    width: 500px;
+    display: flex;
+    align-items: left;
+    height: 200px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+

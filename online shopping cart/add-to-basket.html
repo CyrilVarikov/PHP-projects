@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/labSeven.css">
+        <title>Интернет Магазин</title>
+    </head>
+    <body>
+        <form action="php/labSeven.php" method="POST">
+            <select class="form-control" name="things[]" multiple>
+                <optgroup label="Верхняя одежда">
+                    <option value="Куртка">Куртка</option>
+                    <option value="Пальто">Пальто</option>
+                    <option value="Ветровка">Ветровка</option>
+                </optgroup>
+                <optgroup label="Спортивная одежда">
+                    <option value="Шорты">Шорты</option>
+                    <option value="Майка">Майка</option>
+                    <option value="Спортивный костюм">Спортивный костюм</option>
+                </optgroup>
+                <optgroup label="Обувь">
+                    <option value="Кеды">Кеды</option>
+                    <option value="Туфли">Туфли</option>
+                    <option value="Сапоги">Сапоги</option>
+                </optgroup>
+            </select>
+            <input class="form-control" type="number" size="3" name="num" min="1" max="15" value="1">
+            <input class="btn btn-secondary" type="submit" value="Add">
+        </form>
+
+        <form action="php/labSeven_basket.php" method="post">
+            <input class="btn btn-success" type="submit" value="Basket">
+        </form>
+    </body>
+</html>
+

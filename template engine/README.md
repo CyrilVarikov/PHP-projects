@@ -1,0 +1,1 @@
+The script receives exchange rates from the bank using templates.
